@@ -1,0 +1,13 @@
+{
+  "name": "AWS SAML UI Tweak",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "description": "Tweak the AWS SAML UI",
+  "content_scripts": [
+    {
+      "matches": ["https://signin.aws.amazon.com/saml"],
+      "js": ["zepto.min.js", "tweak.js"],
+      "css": ["tweak.css"]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.line-item {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.line-item .account-name {
+  font-weight: normal;
+  font-size: 0.8em;
+}
